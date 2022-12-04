@@ -5,7 +5,7 @@
  * @param String $string
  * @return Integer
  */
-function romanToInt($string) {
+function romanToInt($roman) {
     $romans = array(
         'M' => 1000,
         'CM' => 900,
@@ -22,7 +22,6 @@ function romanToInt($string) {
         'I' => 1,
     );
 
-    $roman = $s;
     $result = 0;
 
     foreach ($romans as $key => $value) {
