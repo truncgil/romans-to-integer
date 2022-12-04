@@ -2,7 +2,7 @@
 
 
 /**
- * @param String $s
+ * @param String $string
  * @return Integer
  */
 function romanToInt($string) {
